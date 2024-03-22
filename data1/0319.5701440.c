@@ -10,12 +10,8 @@ long long factorial_iter(int a) {
 	return result;
 }
 long long factorial_rec(int a) {
-	long long result = 1;
-	for (int i = 1; i <= a; i++) {
-		result *= i; //result = result * i
-
-	}
-	return result;
+	if (a <= 1) return (1);
+	else return (a * factorial_rec (a - 1));
 
 }
 int main(void) {
