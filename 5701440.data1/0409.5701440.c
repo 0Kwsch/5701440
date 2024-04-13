@@ -7,7 +7,7 @@ typedef int element;
 element stack[MAX_STACK_SIZE];
 int top = -1; //인덱스 0에서 pop할 경우 top은  -1
 
-//create : 이미 만들었음.
+//create : 이미 만들었음..
 //delete : 할 수 없음.
 
 // is_full
